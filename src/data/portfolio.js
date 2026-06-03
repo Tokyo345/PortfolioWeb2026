@@ -11,6 +11,11 @@ import certKoko from '../assets/certificate/KOKO RAINER.jpg';
 import certIcampn from '../assets/certificate/ICampN Participant - Frederick Rainer Suryanto.pdf';
 import certSic from '../assets/certificate/SIC_Frederick Rainer Suryanto.pdf';
 
+// Logo imports untuk Activities section
+import logoKoci from '../assets/logo koci jawa timur.png';
+import logoRaion from '../assets/logo Raion.png';
+import logoBCA from '../assets/Logo BCA.jpeg';
+
 // ─── INFORMASI PERSONAL ─────────────────────
 // ✏️ Ganti dengan data Anda
 export const personalInfo = {
@@ -136,7 +141,7 @@ export const activities = [
     period: "March 2026 – Present",
     category: "Leadership",
     icon: "",
-    imageIcon: "../src/assets/logo koci jawa timur.png",
+    imageIcon: logoKoci,
     iconWidth: "60px",
     description:
       "Represented the organization as a cultural ambassador, coordinating campaigns that achieved 23,100+ organic views and mobilizing 80+ donors for a regional blood drive.",
@@ -160,7 +165,7 @@ export const activities = [
     period: "Jan 2025 – Feb 2026",
     category: "Teamwork",
     icon: "",
-    imageIcon: "../src/assets/logo Raion.png",
+    imageIcon: logoRaion,
     iconWidth: "60px",
     description:
       "Led recruitment efforts attracting 100+ applicants and co-organized 4 flagship events including Raion Academy and Hackjam.",
@@ -206,7 +211,7 @@ export const activities = [
     period: "2026",
     category: "Achievement",
     icon: "",
-    imageIcon: "../src/assets/logo koci jawa timur.png",
+    imageIcon: logoKoci,
     // ✏️ Sesuaikan ukuran logo (contoh: "60px", "80px", "100%")
     iconWidth: "60px",
     description:
@@ -221,7 +226,7 @@ export const activities = [
     category: "Achievement",
     icon: "",
     // ✏️ Masukkan path logo BCA Anda di bawah ini, contoh: "/images/logo-bca.png" atau import seperti foto profil
-    imageIcon: "../src/assets/Logo BCA.jpeg",
+    imageIcon: logoBCA,
     // ✏️ Sesuaikan ukuran logo (contoh: "60px", "80px", "100%")
     iconWidth: "60px",
     description:
