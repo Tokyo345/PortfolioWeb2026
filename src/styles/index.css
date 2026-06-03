@@ -1695,6 +1695,11 @@ button {
     gap: var(--space-6);
   }
 
+  .activities-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-5);
+  }
+
   .editorial-feature-item {
     padding: var(--space-4) 0;
     border-right: none;
@@ -1794,8 +1799,13 @@ button {
   }
 
   .projects-grid,
-  .certificates-grid {
+  .certificates-grid,
+  .activities-grid {
     grid-template-columns: 1fr;
+  }
+
+  .activity-card {
+    padding: var(--space-6);
   }
 
   .section-title {
@@ -1871,5 +1881,26 @@ button {
   .process-gallery img {
     height: 220px;
     width: 180px;
+  }
+
+  .activity-card {
+    padding: var(--space-5);
+  }
+
+  .activity-card-title {
+    font-size: var(--text-base);
+  }
+
+  .activity-card-desc {
+    font-size: var(--text-xs);
+  }
+
+  .activities-filters {
+    gap: var(--space-2);
+  }
+
+  .activities-filter-pill {
+    font-size: var(--text-xs);
+    padding: var(--space-1) var(--space-4);
   }
 }
